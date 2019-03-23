@@ -10,6 +10,7 @@ $ca = new ClientArea();
 
 $ca->initPage();
 $ca->requireLogin();
+$action = $whmcs->get_req_var("action");
 
 // To assign variables to the template system use the following syntax.
 // These can then be referenced using {$variablename} in the template.
@@ -18,6 +19,7 @@ $ca->requireLogin();
  if( $action == "" ) 
     {
 		$ca->setPageTitle('Dashboard');
+		
 		$ca->setTemplate('dashboard');
     }
 
