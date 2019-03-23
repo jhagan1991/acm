@@ -6,8 +6,8 @@
 
     <title>{$title}</title>
 	
-	{$headoutput}
+{$headoutput}
 	
   </head>
   <body>
-  {$headeroutput}
+{$headeroutput}

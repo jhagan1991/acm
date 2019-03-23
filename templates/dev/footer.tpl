@@ -1,4 +1,4 @@
-  {$footeroutput}
+{$footeroutput}
   
   </body>
 </html>
