@@ -19,11 +19,8 @@ $action = $whmcs->get_req_var("action");
  if( $action == "" ) 
     {
 		$ca->setPageTitle('Dashboard');
-		
 		$ca->setTemplate('dashboard');
     }
 
-
-$ca->setTemplate('mypage');
 
 $ca->output();
